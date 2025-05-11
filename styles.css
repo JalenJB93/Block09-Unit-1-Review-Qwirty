@@ -1,0 +1,65 @@
+element.style {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  flex: 1;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid blue(--fg);
+  padding: 0.25rem 0.5rem;
+}
+.index {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.input {
+  font-style: italic;
+  font-weight: 25;
+  font-display: 25px;
+  font-variant: 25rem;
+  font-stretch: condensed;
+  text-indent: 0px;
+  text-shadow: none;
+}
+
+.left {
+  display: flow;
+  flex-direction: row;
+  justify-content: flow-start;
+  gap: 1row;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1row;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  background-color: blue;
+}
+
+header {
+  color: black;
+  font-size: ex-large;
+  font: sams-serif;
+}
+
+.article {
+  border: solid;
+  padding: 1row;
+  margin: 1row;
+}
